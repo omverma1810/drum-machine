@@ -53,6 +53,7 @@ const App = () => (
               <h1>Play a sound</h1>
                 {sounds.map((sound, idx) => (
                     <DrumPad text={sound.key} key={idx} audio={sound.mp3} />
+              <a id="name" href="http://www.omverma.ml/">-  Om Verma</a>
                 ))}
             </div>
     </div>
