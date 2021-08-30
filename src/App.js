@@ -1,6 +1,4 @@
-import React, { Component } from 'react'
-
-const keys = ['Q', 'W', 'E', 'A', 'S', 'D', 'Z', 'X', 'C'];
+import React from 'react'
 
 const sounds = [
   {
