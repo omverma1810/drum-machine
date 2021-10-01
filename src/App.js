@@ -48,6 +48,7 @@ const sounds = [
 ]
 
 const App = () => (
+  <>
     <div id="drum-machine" className="container">
             <div id="display" className="display">
               <h1>Play a sound</h1>
@@ -57,6 +58,7 @@ const App = () => (
                 ))}
             </div>
     </div>
+</>
 );
 
 class DrumPad extends React.Component {
